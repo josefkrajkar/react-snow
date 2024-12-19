@@ -46,7 +46,7 @@ function Snow({
 
       el.appendChild(snow);
     }
-  }, [count]);
+  }, [count, snowflakeWidth, timeOffset, blurValue]);
 
   return <div id="container" ref={conatainerRef} className={className} />;
 }
